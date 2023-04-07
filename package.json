@@ -1,7 +1,6 @@
 {
   "name": "vastra",
-  "homepage": " https://rizwana337.github.io/Myntra",
-
+  "homepage": "https://rizwana337.github.io/Myntra",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -43,8 +42,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy" : "npm run build", 
-    "deploy": "gh-pages -d build", 
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "server": "json-server --watch db.json --port 8080",
     "start": "react-scripts start",
     "build": "react-scripts build",
